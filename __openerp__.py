@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    product_brands module for OpenERP, Associate product with multiple brands
-#    Copyright (C) 2013 MIROUNGA (<http://www.mirounga.fr/>)
-#              Christophe CHAUVET <christophe.chauvet@mirounga.fr>
+#    product_brands module for OpenERP, Associate product with compatible brands
+#    Copyright (C) 2014 ozytwyst Julien Thomazeau <ozydev@julienthomazeau.fr>
 #
 #    This file is a part of product_brands
 #
@@ -33,7 +32,9 @@
 	],
 	'images': [],
 	'data': [
-		'product_brands_view.xml'
+		'product_brands_view.xml',
+		'security/groups.xml',
+		'security/ir.model.access.csv',
 	],
 	'demo': [],
 	'test': [],

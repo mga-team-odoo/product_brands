@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
 	<data>
+	##############################################################################
+	#
+	#    product_brands module for OpenERP, Associate product with compatible brands
+	#    Copyright (C) 2014 ozytwyst Julien Thomazeau [ozydev@julienthomazeau.fr]
+	#
+	#    This file is a part of product_brands
+	#
+	#    product_brands is free software: you can redistribute it and/or modify
+	#    it under the terms of the GNU Affero General Public License as published by
+	#    the Free Software Foundation, either version 3 of the License, or
+	#    (at your option) any later version.
+	#
+	#    product_brands is distributed in the hope that it will be useful,
+	#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+	#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	#    GNU Affero General Public License for more details.
+	#
+	#    You should have received a copy of the GNU Affero General Public License
+	#    along with this program.  If not, see [http://www.gnu.org/licenses/].
+	#
+	##############################################################################
 
 		<record model="ir.ui.view" id="product_product_brands_form_view">
 			<field name="name">product.product.brands.form</field>
@@ -8,8 +29,8 @@
 			<field name="inherit_id" ref="product.product_normal_form_view"/>
 			<field name="arch" type="xml">
 				<xpath expr="//field[@name='description']" position="before">
-					<label for="brand_ids" string="Brand"/>
-					<field name="brand_ids" widget="many2many_tags" colspan="4"/>
+					<label for="brand_ids" string="Brands" groups="product_brands.group_product_brands,product_brands.group_product_brands_manager"/>
+					<field name="brand_ids" widget="many2many_tags" colspan="4" groups="product_brands.group_product_brands,product_brands.group_product_brands_manager"/>
 				</xpath>
 			</field>					
 		</record>
@@ -79,6 +100,6 @@
 			<field name="view_mode">tree,form</field>		
 		</record>
 		
-		<menuitem name="Brand management" id="menu_product_brands" action="action_product_brands" parent="product.prod_config_main"/>
+		<menuitem name="Brand management" id="menu_product_brands" action="action_product_brands" parent="product.prod_config_main" groups="group_product_brands,group_product_brands_manager"/>
 	</data>
 </openerp>
