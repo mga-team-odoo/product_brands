@@ -24,7 +24,8 @@
 ##############################################################################
 		<record model="product.brands" id="product_brands_demo_1">
 			<field name="name">Asus</field>
-			<field name="description">ASUSTeK Computer Inc. is a Taiwanese multinational computer hardware and electronics company based in Beitou District, Taipei, Taiwan. Its products include desktops, laptops, netbooks, LED/LCD panels, mobile phones, networking equipment, monitors, motherboards, graphics cards, optical storage, multimedia products, servers, workstations, and tablet PCs. The company's slogan/tagline was "Inspiring Innovation. Persistent Perfection." and is currently "In Search of Incredible." Source=Wikipedia</field>
+			<field name="description">ASUSTeK Computer Inc. is a Taiwanese multinational computer hardware and electronics company based in Beitou District, Taipei, Taiwan. Its products include desktops, laptops, netbooks, LED/LCD panels, mobile phones, networking equipment, monitors, motherboards, graphics cards, optical storage, multimedia products, servers, workstations, and tablet PCs. The company's slogan/tagline was "Inspiring Innovation. Persistent Perfection." and is currently "In Search of Incredible."
+Source : Wikipedia</field>
 			<field name="logo">/9j/4AAQSkZJRgABAQECWAJYAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsK
 CwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQU
 FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAFAAZADASIA
@@ -240,7 +241,8 @@ BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//2Q==</field>
 		
 		<record model="product.brands" id="product_brands_demo_2">
 			<field name="name">Apple</field>
-			<field name="description">Apple Inc. is an American multinational corporation headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, online services, and personal computers. Its best-known hardware products are the Mac line of computers, the iPod media player, the iPhone smartphone, and the iPad tablet computer. Its online services include iCloud, iTunes Store, and App Store. Its consumer software includes the OS X and iOS operating systems, the iTunes media browser, the Safari web browser, and the iLife and iWork creativity and productivity suites.</field>
+			<field name="description">Apple Inc. is an American multinational corporation headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, online services, and personal computers. Its best-known hardware products are the Mac line of computers, the iPod media player, the iPhone smartphone, and the iPad tablet computer. Its online services include iCloud, iTunes Store, and App Store. Its consumer software includes the OS X and iOS operating systems, the iTunes media browser, the Safari web browser, and the iLife and iWork creativity and productivity suites.
+Source : Wikipedia</field>
 			<field name="logo">/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAICAgICAgICAgIDAgICAwQDAgIDBAUEBAQEBAUGBQUF
 BQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4O
 Dw8MDAwMDA8PDAwMDAwMDwwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wgARCASwBLADAREA
@@ -536,7 +538,8 @@ E0pkHSi0ofVLajSWwL/KQda+JPivjT4oADrxWBPisCfFAAf7Pb//2Q==</field>
 			<field name="name">Dell</field>
 			<field name="description">Dell Inc. is an American privately owned multinational computer technology company based in Round Rock, Texas, United States, that develops, sells, repairs and supports computers and related products and services. Bearing the name of its founder, Michael Dell, the company is one of the largest technological corporations in the world, employing more than 103,300 people worldwide.
 
-Dell sells personal computers, servers, data storage devices, network switches, software, computer peripherals, HDTVs, cameras, printers, MP3 players and also electronics built by other manufacturers. The company is well known for its innovations in supply chain management and electronic commerce, particularly its direct-sales model and its "build-to-order" or "configure to order" approach to manufacturing—delivering individual PCs configured to customer specifications. Dell was a pure hardware vendor for much of its existence, but a few years ago with the acquisition of Perot Systems, Dell entered the market for IT services. The company has since made additional acquisitions in storage and networking systems, with the aim of expanding their portfolio from offering computers only to delivering complete solutions for enterprise customers.</field>
+Dell sells personal computers, servers, data storage devices, network switches, software, computer peripherals, HDTVs, cameras, printers, MP3 players and also electronics built by other manufacturers. The company is well known for its innovations in supply chain management and electronic commerce, particularly its direct-sales model and its "build-to-order" or "configure to order" approach to manufacturing—delivering individual PCs configured to customer specifications. Dell was a pure hardware vendor for much of its existence, but a few years ago with the acquisition of Perot Systems, Dell entered the market for IT services. The company has since made additional acquisitions in storage and networking systems, with the aim of expanding their portfolio from offering computers only to delivering complete solutions for enterprise customers.
+Source : Wikipedia</field>
 			<field name="logo">iVBORw0KGgoAAAANSUhEUgAAB9AAAAfKCAYAAAA4deWEAAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJ
 TUUH2gMNFykrOyjkugAAIABJREFUeJzs3XuYXXV99/33b+1JQg4kkHJWAkoQJJxCJgcioFjTegN6
 V7jNXbC2WJ+7YGulxVaQHFzmgNDe5RFsq9THirWCjQWtglqhTeU4SQYShWDQIBAwGIiBhJCQzN7r

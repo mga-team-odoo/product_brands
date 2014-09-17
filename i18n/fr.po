@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: product_brands for OpenERP\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-17 10:18+0000\n"
-"PO-Revision-Date: 2014-09-17 12:19+0100\n"
+"POT-Creation-Date: 2014-09-17 15:52+0000\n"
+"PO-Revision-Date: 2014-09-17 17:54+0100\n"
 "Last-Translator: \n"
 "Language-Team: Julien Thomazeau <ozydev@julienthomazeau.fr>\n"
 "Language: Français\n"
@@ -15,6 +15,43 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
+
+#. module: product_brands
+#: model:product.brands,description:product_brands.product_brands_demo_1
+msgid "ASUSTeK Computer Inc. is a Taiwanese multinational computer hardware and "
+"electronics company based in Beitou District, Taipei, Taiwan. Its products "
+"include desktops, laptops, netbooks, LED/LCD panels, mobile phones, "
+"networking equipment, monitors, motherboards, graphics cards, optical "
+"storage, multimedia products, servers, workstations, and tablet PCs. The "
+"company's slogan/tagline was \"Inspiring Innovation. Persistent Perfection."
+"\" and is currently \"In Search of Incredible.\"\n"
+"Source : Wikipedia"
+msgstr "ASUSTeK Computer, Inc. est une société basée à Taïwan qui produit des cartes "
+"mères, des cartes graphiques, des lecteurs optiques, des PDA, des "
+"ordinateurs portables, des périphériques réseau, des téléphones portables, "
+"des boîtiers et des systèmes de refroidissement d’ordinateurs.\n"
+"Source : Wikipedia"
+
+#. module: product_brands
+#: model:product.brands,description:product_brands.product_brands_demo_2
+msgid "Apple Inc. is an American multinational corporation headquartered in "
+"Cupertino, California, that designs, develops, and sells consumer "
+"electronics, computer software, online services, and personal computers. Its "
+"best-known hardware products are the Mac line of computers, the iPod media "
+"player, the iPhone smartphone, and the iPad tablet computer. Its online "
+"services include iCloud, iTunes Store, and App Store. Its consumer software "
+"includes the OS X and iOS operating systems, the iTunes media browser, the "
+"Safari web browser, and the iLife and iWork creativity and productivity "
+"suites.\n"
+"Source : Wikipedia"
+msgstr "Apple Inc. est une entreprise multinationale américaine qui conçoit et "
+"commercialise des produits électroniques grand public, des ordinateurs "
+"personnels et des logiciels informatiques. Parmi les produits les plus "
+"connus de l'entreprise se trouvent les ordinateurs Macintosh, l'iPod, "
+"l'iPhone et l'iPad, le lecteur multimédia iTunes, la suite bureautique "
+"iWork, la suite multimédia iLife ou des logiciels à destination des "
+"professionnels tels que Final Cut Pro et Logic Pro.\n"
+"Source : Wikipedia"
 
 #. module: product_brands
 #: model:ir.actions.act_window,name:product_brands.action_product_brands
@@ -35,6 +72,39 @@ msgstr "Gestion des marques"
 #: view:product.product:0 field:product.template,brand_ids:0
 msgid "Brands"
 msgstr "Marques"
+
+#. module: product_brands
+#: model:product.brands,description:product_brands.product_brands_demo_3
+msgid "Dell Inc. is an American privately owned multinational computer technology "
+"company based in Round Rock, Texas, United States, that develops, sells, "
+"repairs and supports computers and related products and services. Bearing "
+"the name of its founder, Michael Dell, the company is one of the largest "
+"technological corporations in the world, employing more than 103,300 people "
+"worldwide.\n"
+"\n"
+"Dell sells personal computers, servers, data storage devices, network "
+"switches, software, computer peripherals, HDTVs, cameras, printers, MP3 "
+"players and also electronics built by other manufacturers. The company is "
+"well known for its innovations in supply chain management and electronic "
+"commerce, particularly its direct-sales model and its \"build-to-order\" or "
+"\"configure to order\" approach to manufacturing—delivering individual PCs "
+"configured to customer specifications. Dell was a pure hardware vendor for "
+"much of its existence, but a few years ago with the acquisition of Perot "
+"Systems, Dell entered the market for IT services. The company has since made "
+"additional acquisitions in storage and networking systems, with the aim of "
+"expanding their portfolio from offering computers only to delivering "
+"complete solutions for enterprise customers.\n"
+"Source : Wikipedia"
+msgstr "Dell est une entreprise américaine, actuellement troisième plus grand "
+"constructeur d'ordinateurs au monde derrière Lenovo et Hewlett-Packard. Son "
+"siège est basé à Round Rock dans l'État du Texas. Même si Dell Computer est "
+"surtout connu pour les PC qu'il conçoit, fabrique et vend aux particuliers "
+"et aux professionnels, il est également présent sur les marchés de serveurs "
+"d'entreprise, de systèmes de sauvegarde et stockage de données et du "
+"matériel spécifique aux réseaux informatiques. Dell propose également des "
+"logiciels et des périphériques comme des imprimantes, appareils photos "
+"numériques, et beaucoup d'autres encore.\n"
+"Source : Wikipedia"
 
 #. module: product_brands
 #: view:product.brands:0 field:product.brands,description:0
@@ -66,11 +136,11 @@ msgstr "Marque de produit / Utilisateur"
 #: model:ir.model,name:product_brands.model_product_template
 #, python-format
 msgid "Product Template"
-msgstr ""
+msgstr "Product Template"
 
 #. module: product_brands
 #: code:_description:0 model:ir.model,name:product_brands.model_product_brands
 #: view:product.brands:0
 #, python-format
 msgid "product.brands"
-msgstr ""
+msgstr "product.brands"
