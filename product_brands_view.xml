@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+
+		<record model="ir.ui.view" id="product_product_brands_form_view">
+			<field name="name">product.product.brands.form</field>
+			<field name="model">product.product</field>
+			<field name="inherit_id" ref="product.product_normal_form_view"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='description']" position="before">
+					<label for="brand_ids" string="Brand"/>
+					<field name="brand_ids" widget="many2many_tags" colspan="4"/>
+				</xpath>
+			</field>					
+		</record>
+			
+		<record model="ir.ui.view" id="product_search_form_view">
+			<field name="name">product.search.form</field>
+            		<field name="model">product.product</field>
+            		<field name="inherit_id" ref="product.product_search_form_view"/>
+            		<field name="arch" type="xml">
+                		<field name="categ_id" position="after">
+					<field name="brand_ids"/>
+				</field>
+			</field>
+		</record>
+
+		<record id="product_brands_search_form_view" model="ir.ui.view">
+			<field name="name">product.brands.search.form</field>
+			<field name="model">product.brands</field>
+			<field name="arch" type="xml">
+				<search string="Product Brands">
+					<field name="name"/>
+				</search>
+			</field>
+		</record>
+
+
+
+
+		<record id="view_product_brands_form" model="ir.ui.view" >
+			<field name="name">product.brands.form</field>
+			<field name="model">product.brands</field>
+			<field name="arch" type="xml">
+				<form string="product.brands" version="7.0">
+					<sheet>
+						<field name="logo" widget="image" class="oe_avatar oe_left"/>
+						<div class="oe_title">
+							<div class="oe_edit_only">
+								<label for="name" string="Brand Name"/>
+							</div>
+							<h1>
+								<field name="name"/>
+							</h1>
+						</div>
+						<group string="Description">
+							<field name="description" nolabel="1"/>
+						</group>
+					</sheet>
+				</form>
+			</field>
+		</record>
+
+		<record model="ir.ui.view" id="view_product_brands_tree">
+			<field name="name">product.brand.tree</field>
+			<field name="model">product.brands</field>
+			<field name="arch" type="xml">
+				<tree string="product.brands">
+					<field name="name"/>
+					<field name="description"/>
+				</tree>
+			</field>
+		</record>
+
+		<record model="ir.actions.act_window" id="action_product_brands">
+			<field name="name">Brand</field>
+			<field name="res_model">product.brands</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>		
+		</record>
+		
+		<menuitem name="Brand management" id="menu_product_brands" action="action_product_brands" parent="product.prod_config_main"/>
+	</data>
+</openerp>
