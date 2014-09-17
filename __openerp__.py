@@ -32,11 +32,11 @@
 	],
 	'images': [],
 	'data': [
-		'product_brands_view.xml',
 		'security/groups.xml',
 		'security/ir.model.access.csv',
+		'product_brands_view.xml',
 	],
-	'demo': [],
+	'demo': ['demo/product_brands_demo.xml'],
 	'test': [],
 
 }
